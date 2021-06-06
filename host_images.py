@@ -2,8 +2,8 @@ import http.server
 import socketserver
 
 
-PORT = 8000
-DIRECTORY = "./progress_images"
+PORT = 8001
+DIRECTORY = "./images/progress_images"
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
